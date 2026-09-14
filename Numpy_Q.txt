@@ -1,0 +1,50 @@
+1. Import NumPy and print its version.
+2. Make an array from the hours logged column.
+3. Print the shape, the size and the data type of that array.
+4. Make an array of the numbers 1 to 50 using arange.
+5. Make 10 evenly spaced numbers between 0 and 100 using linspace.
+6. Make an array of 10 zeros and an array of 10 ones.
+7. Make a 3 by 3 array of random numbers using seed 42.
+8. Make a 2-D array from the hours logged and billing rate columns.
+9. Print how many dimensions that 2-D array has.
+10. Print the first 5 values of the hours array.
+11. Print the last 5 values of the hours array.
+12. Print every second value from the first 20 values.
+13. Reverse the array.
+14. Find the sum of the hours array.
+15. Find the mean, the minimum and the maximum of the hours array.
+16. Find the standard deviation.
+17. Find the median.
+18. Count how many values are missing in the array.
+19. Find the mean while ignoring the missing values.
+20. Replace all the missing values with 0.
+21. Count how many values are greater than 100.
+22. Show only the values that are greater than 100.
+23. Show the values that are between 10 and 50.
+24. Count how many values are negative.
+25. Replace all the negative values with 0.
+26. Sort the array from smallest to largest.
+27. Find the position of the largest value.
+28. Find the position of the smallest value.
+29. Find the 5 largest values.
+30. Round every value to 1 decimal place.
+31. Multiply every value by 2.
+32. Add 10 to every value.
+33. Multiply the hours array by the billing rate array.
+34. Check whether the two arrays have the same length.
+35. Use np.where to mark values above 24 as slow and the rest as fast.
+36. Make an array of the unique priority values.
+37. Count how many times each unique priority value appears.
+38. Take the first 100 values and reshape them into a 10 by 10 array.
+39. Transpose that 10 by 10 array.
+40. Flatten it back into a 1-D array.
+41. Join two arrays together using np.concatenate.
+42. Split an array into 5 equal parts.
+43. Find the 25th, 50th and 75th percentile.
+44. Find the cumulative sum of the first 20 values.
+45. Find the difference between each value and the one before it using np.diff.
+46. Keep every value inside the range 0 to 100 using np.clip.
+47. Convert the array to whole numbers.
+48. Copy the array, change one value in the copy, and show that the original did not change.
+49. Save the array to a .npy file and load it back.
+50. Find the total revenue using np.dot on the hours array and the rate array.
